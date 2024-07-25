@@ -1,0 +1,18 @@
+package devandroid.julian.aulacomponenteslistagemcolecoes
+
+fun main() {
+
+    val listaNomes = listOf("julian", "ana", "bruno", "maria", "zeus")
+    val listaNumeros = listOf(2, 1, 3)
+
+    //val novaListaNumeros = listaNumeros.sorted()//ASC ascendente a-z0..8
+    //val novaListaNumeros = listaNumeros.sortedDescending()//DESC descendente z-a8..0
+
+    val listaNomesAsc = listaNomes.sorted()
+    val listaNomesDesc = listaNomes.sortedDescending()
+
+    println( listaNomesAsc )
+    println( listaNomesDesc )
+
+
+}
